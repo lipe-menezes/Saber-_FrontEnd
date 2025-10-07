@@ -11,7 +11,7 @@
     <header class="header">
         <div class="header-left">
             <div class="logo">
-                <div class="logo-icon"><img src="../images/logo.jpg" alt="Logo Saber+"></div>
+                <div class="logo-icon"><img src="../../images/logo.jpg" alt="Logo Saber+"></div>
                 <div class="logo-text">
                     <h1>Saber+ </h1>
                     <p>Bem-vindo!</p>
@@ -20,18 +20,18 @@
         </div>
         <div class="header-right">
             <button class="btn-primary">+ Criar Quiz</button>
-            <button class="btn-secondary"><div class="cabeçalho-icon"><img src="../images/Relatórios.jpg" alt="relatorio"></div> Relatórios</button>
-            <button class="btn-secondary"><div class="cabeçalho-icon"><img src="../images/sair.jpg" alt="relatorio"></div> Sair</button>
+            <button class="btn-secondary"><div class="cabeçalho-icon"><img src="../../images/Relatórios.jpg" alt="relatorio"></div> Relatórios</button>
+            <button class="btn-secondary"><div class="cabeçalho-icon"><img src="../../images/sair.jpg" alt="relatorio"></div> Sair</button>
         </div>
     </header>
 
     <!-- Navegação Principal -->
     <nav class="main-nav">
-        <div class="nav-item" onclick="window.location.href='VisaoGeral.html'">Visão Geral</div>
-        <div class="nav-item" onclick="window.location.href='Quizzes.html'">Meus Quizzes</div>
-        <div class="nav-item" onclick="window.location.href='MinhasTurmas.html'">Turmas</div>
+        <div class="nav-item" onclick="window.location.href='../VisaoGeral.html'">Visão Geral</div>
+<div class="nav-item" onclick="window.location.href='../Quizzes/Quizzes.html'">Meus Quizzes</div> 
+    <div class="nav-item" onclick="window.location.href='../Turmas/MinhasTurmas.html'">Turmas</div> 
         <div class="nav-item active">Relatórios</div>
-        <div class="nav-item" onclick="window.location.href='Foruns.html'">Fórum</div>
+        <div class="nav-item" onclick="window.location.href='../Forum/Foruns.html'">Fórum</div> 
     </nav>
 
     <!-- Conteúdo Principal -->
@@ -46,13 +46,15 @@
                 </div>
                 <div class="reports-list">
                     <div class="report-item">
-                        <div class="report-icon">📊</div>
-                        <div class="report-info">
-                            <h4>Relatório de Desempenho Completo</h4>
-                        </div>
-                        <button class="generate-btn">Gerar</button>
-                    </div>
-                    <div class="report-item">
+    <div class="report-icon"><img src="../../images/Relatórios.jpg" alt="media" ></div>
+    <div class="report-info">
+        <h4>Relatório de Desempenho Completo</h4>
+    </div>
+    <button class="generate-btn" onclick="window.location.href='Desempenho/RelatorioDesempenho.html'">
+        Gerar
+    </button>
+</div>
+                    <!--<div class="report-item">
                         <div class="report-icon">👥</div>
                         <div class="report-info">
                             <h4>Relatório Individual de Alunos</h4>
@@ -72,7 +74,7 @@
                             <h4>Análise de Evolução</h4>
                         </div>
                         <button class="generate-btn">Gerar</button>
-                    </div>
+                    </div>-->
                 </div>
             </div>
 
