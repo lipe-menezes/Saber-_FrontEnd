@@ -3,25 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saber+ Aluno - Dashboard</title>
+    <title>Saber+ Aluno </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="header-left">
             <div class="logo">
-                <span class="logo-icon">📚</span>
+                <div class="logo-icon"><img src="../../images/logo.jpg"></div>
                 <div class="logo-text">
-                    <h1>Saber+ Aluno</h1>
-                    <p>Bem-vindo, João!</p>
+                    <h1>Saber+</h1>
+                    <p>Bem-vindo!</p>
                 </div>
             </div>
         </div>
         <div class="header-right">
-            <button class="logout-btn">
-                <span class="logout-icon">🚪</span>
-                Sair
-            </button>
+            <button class="btn-secondary"><div class="cabeçalho-icon"><img src="../../images/sair.jpg" alt="sair"></div> Sair</button>
         </div>
     </header>
 
@@ -29,7 +26,7 @@
         <!-- Top Stats Cards -->
         <section class="stats-section">
             <div class="stat-card">
-                <div class="stat-icon">🎯</div>
+                <div class="stat-icon"><img src="../../images/QuizzesFeitosA.jpg"></div>
                 <div class="stat-content">
                     <h3>Quizzes Realizados</h3>
                     <div class="stat-number">12</div>
@@ -38,7 +35,7 @@
             </div>
             
             <div class="stat-card">
-                <div class="stat-icon">⭐</div>
+                <div class="stat-icon"><img src="../../images/PontuaçãoA.jpg"></div>
                 <div class="stat-content">
                     <h3>Pontuação Total</h3>
                     <div class="stat-number">890</div>
@@ -47,7 +44,7 @@
             </div>
             
             <div class="stat-card">
-                <div class="stat-icon">📈</div>
+                <div class="stat-icon"><img src="../../images/MédiaGeral.jpg"></div>
                 <div class="stat-content">
                     <h3>Média Geral</h3>
                     <div class="stat-number">85%</div>
@@ -56,7 +53,7 @@
             </div>
             
             <div class="stat-card">
-                <div class="stat-icon">🏆</div>
+                <div class="stat-icon"><img src="../../images/TROFÉU.jpg"></div>
                 <div class="stat-content">
                     <h3>Conquistas</h3>
                     <div class="stat-number">7</div>
@@ -194,31 +191,41 @@
         </section>
     </main>
 
-    <footer class="footer">
-        <div class="footer-item">
-            <div class="footer-icon">🏆</div>
-            <div class="footer-content">
-                <h4>Conquistas</h4>
-                <p>Ver badges e metas</p>
-            </div>
-        </div>
-        
-        <div class="footer-item">
-            <div class="footer-icon">💬</div>
-            <div class="footer-content">
-                <h4>Fórum</h4>
-                <p>Tire suas dúvidas</p>
-            </div>
-        </div>
-        
-        <div class="footer-item">
-            <div class="footer-icon">📊</div>
-            <div class="footer-content">
-                <h4>Histórico</h4>
-                <p>Ver resultados anteriores</p>
-            </div>
-        </div>
-    </footer>
+<footer class="footer">
+  <div class="footer-item" onclick="window.location.href='../Badges/Badge.html'">
+    <div class="footer-icon"><img src="../../images/TROFÉU.jpg" alt="Conquistas"></div>
+    <div class="footer-content">
+      <h4>Conquistas</h4>
+      <p>Ver badges e metas</p>
+    </div>
+  </div>
+
+  <div class="footer-item" onclick="window.location.href='../Forum/index.html'">
+    <div class="footer-icon"><img src="../../images/Forum.jpg" alt="Fórum"></div>
+    <div class="footer-content">
+      <h4>Fórum</h4>
+      <p>Tire suas dúvidas</p>
+    </div>
+  </div>
+
+  <div class="footer-item" onclick="window.location.href='../Historico/history.html'">
+    <div class="footer-icon"><img src="../../images/HistoricoA.jpg" alt="Histórico"></div>
+    <div class="footer-content">
+      <h4>Histórico</h4>
+      <p>Ver resultados anteriores</p>
+    </div>
+  </div>
+
+  <div class="footer-item" onclick="window.location.href='../Materiais/materials.html'">
+    <div class="footer-icon"><img src="../../images/MaterialDeEstudo.jpg" alt="Materiais"></div>
+    <div class="footer-content">
+      <h4>Materiais de Estudo</h4>
+      <p>Conteúdo dos Professores</p>
+    </div>
+  </div>
+</footer>
+
+
 
     <script src="script.js"></script>
 </body>
